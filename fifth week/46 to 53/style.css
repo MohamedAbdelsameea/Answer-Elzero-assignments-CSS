@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.assign-1 div {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 100px;
+    border: solid #eee;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: orange;
+    background-color: #eee;
+    box-shadow: 9px 0px orange, -9px 0px lightblue;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+
+/* this is assign num 2  */
+/* hello my frinds */
+/* hello my frinds */
+/* hello my frinds */
+
+
+.assign-2 .parent {
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 100px;
+    padding: 20px;
+    background-color: #eee;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+.assign-2 .parent div {
+    display: flex;
+    padding:5px;
+    width: calc(96% /3) ;
+    color: white;
+    background-color: crimson;
+    justify-content: center;
+    align-items: center;
+}
+
+.assign-3 .parent {
+width: 600px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 100px;
+    background-color: #eee;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-between;
+}                
+
+.assign-3 .parent div {
+    display: flex;
+    flex-basis: calc(96%/3);
+    background-color: rgb(61, 120, 122);
+    color: white;
+    justify-content: center;
+
+
+}
+
+.assign-3 .parent .one {
+    order: 5;
+}
+.assign-3 .parent .two {
+    order: 4;
+}
+
+.assign-3 .parent .three {
+    order: 1;
+}
+
+.assign-3 .parent .four{
+    order: 2;
+}
+
+.assign-3 .parent .five{
+    order: 3;
+
+}
+
+.assign-3 .parent .six{
+    order: 0;
+    align-self:stretch;
+}
+
+/* this is asign num 4 */
+
+.assign-4 .parent {
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 100px;
+    background-color: #eee;
+    display: flex;
+    flex-flow:column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.assign-4 .parent div {
+    background-color: rgb(27, 196, 139);
+    color:white;
+    display: flex;
+    height: calc(90%/3);
+    width:calc(100%/20);
+    justify-content: center;
+    align-items: center;
+}
+
+.assign-4 .parent .two {
+    width: 30%;
+    align-self: flex-start;
+}
+
+/* this is the assign num 5 */
+
+.assign-5 .parent {
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 100px;
+    background-color: #eee;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.assign-5 .parent div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(95% / 5);
+    height: 49%;
+    color: white;
+}
+
+.assign-5 .parent .two, .assign-5 .parent .four{
+    align-self: flex-end;
+
+}
+
+.assign-5 .parent .one {
+    order: 1;
+    background-color: orange;
+}
+.assign-5 .parent .two {
+    order: 2;
+    background-color: lightgreen;
+}
+
+
+
+.assign-5 .parent .three{
+    order: 3;
+    background-color: rgb(53, 4, 3);
+}
+
+.assign-5 .parent .four {
+    order: 0;
+    background-color: purple;
+}
+
+/* this is the fucking important assignment */
+
+* {
+    box-sizing: border-box;
+}
+
+.page {
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    background-color: #eee;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-bottom: 100px;
+}
+
+.page div  {
+    display: flex;
+}
+ :root {
+    --mainColor: rgb(182, 178, 178);
+ }
+
+ /* this is the header what you need */
+
+.page .header {
+    width: 98%;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 12%;
+}
+
+.page .header .logo {
+    width: 10%;
+    background-color: var(--mainColor);
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.page .header .links {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 0 ;
+    justify-content: flex-end;
+    align-content: center;
+    background-color: var(--mainColor);   
+    list-style: none;
+    margin-left: 1%;
+    padding-right: 3px;
+}
+ 
+.page .header .links li {
+    margin-right: 10px;
+}
+
+/* this is the main contetn */
+
+.page .main-area {
+    width: 98%;
+    height: calc( 100% - 34%);
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.page .main-area .content {
+    background-color: var(--mainColor);
+    width: 69%;
+    height: 100%;
+    padding: 10px;
+}
+
+.page .main-area .sidebar {
+    background-color: var(--mainColor);
+    width: 30%;
+    height:100% ;
+    padding: 10px;
+}
+/* this is the footer */
+
+.page .footer {
+    flex-flow: row wrap;
+    justify-content: space-between ;
+    align-items: center;
+    background-color: var(--mainColor);
+    width: 98%;
+    height: 12%;
+    padding: 0 10px;
+}
+
+

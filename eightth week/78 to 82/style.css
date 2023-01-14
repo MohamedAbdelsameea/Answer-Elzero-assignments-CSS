@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.assign_1 {
+  background-color: gray;
+  text-align: center;
+}
+.assign_1 div.main.red {
+  color: red;
+}
+
+/* this is assign_2 */
+.assign_2 {
+  background-color: blue;
+}
+.assign_2 div.parent div:nth-child(2) {
+  color: red;
+}
+
+/* this is assign_3 */
+.assign_3 {
+  background-color: brown;
+  text-align: center;
+}
+
+.assign_3 .parent .baby:only-child {
+  color: red;
+}
+/* this is assign_4 */
+.assign_4 {
+  background-color: steelblue;
+}
+.assign_4 > div[title]:not(.no-need) {
+  color: red;
+}
+
+/* assign_5 */
+.assign_5 {
+  background-color: orange;
+  text-align: center;
+}
+.assign_5 div:not(.no-need) > div[title*="Elzero"]:last-child:not(.no-need) {
+  color: red;
+}
+
+/* assign_6 */
+.assign_6 {
+  background-color: blueviolet;
+}
+.assign_6 div:not(.no-need) > div:nth-last-of-type(2) {
+  color: red;
+}
+
+/* assign_7 */
+
+.assign_7 {
+  background-color: olivedrab;
+  text-align: center;
+}
+
+.assign_7
+  div:not(div[class^="no"])
+  > h3:last-of-type
+  + div:not(div[class^="no"]) {
+  color: red;
+}
+/* assign_8 */
+.assign_8 {
+  background-color: tan;
+}
+
+.assign_8 div > :not(h3, div:first-child, div:last-child) {
+  color: red;
+}

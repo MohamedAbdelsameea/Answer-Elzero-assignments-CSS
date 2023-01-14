@@ -1,0 +1,41 @@
+.parent .child .title {
+    color: red;
+} 
+
+.parent .title {
+    color: blue;
+}
+
+p,.title {
+    color: green;
+}
+
+/* this is answer for assign */
+.shape1{
+    background-color: brown;
+    width: fit-content;
+    max-width: 400px;
+}
+
+
+.shape2{
+    background-color: brown;
+    width: fit-content;
+    max-width: 400px;
+}
+
+.shape3{
+    background-color: brown;
+    width: fit-content;
+    max-width: 400px;
+
+}
+
+.shape4{
+    background-color: brown;
+    height: 50px;
+    width: fit-content;
+    max-width: 400px;
+    overflow-y  : hidden;
+
+}

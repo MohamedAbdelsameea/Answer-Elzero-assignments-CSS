@@ -1,0 +1,160 @@
+/* this is the first assignment */
+body {
+    margin: 0;
+    height: 2000px;
+    width: 1000px;
+}
+.assign1 div {
+    width:100px;
+    height:100px;
+}
+
+.assign1 .green {
+    background-color: rgb(0, 77, 64);
+    z-index: 19;
+    position:absolute ;
+    top: 30px ;
+    left: 30px;
+
+}
+
+.assign1 .red {
+    background-color: rgb(236, 77, 77);
+    z-index: 20;
+    position: absolute;
+    top: 40px ;
+    left: 40px;
+}
+
+.assign1 .blue {
+    background-color: skyblue;
+    z-index: 18;
+    position: absolute;
+    top: 20px ;
+    left: 20px;
+}
+
+.assign1 .black {
+    background-color:black;
+    z-index: 17;
+    position: absolute;
+    top:30px;
+    left:20px;
+}
+
+/* hello again this is the second assignment */
+
+.assign2 {
+    padding: 20px;
+    width: 400px;
+    background-color: #eee;
+    border: 3px solid;
+    border-color: red rgb(69, 187, 255);
+    z-index: 2;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+span {
+    padding: 5px;
+    background-color: rgb(69, 187, 255);
+    z-index: 3;
+}
+
+.assign2 .top-left,.assign2 .bottom-left {
+       border-right: 2px solid red; 
+}
+
+.assign2 .top-left {
+    position:relative;
+    bottom: 84px;
+    right: 255px;
+}
+
+.assign2 .bottom-left {
+    position: relative;
+    top: 29px;
+    right: 278px;
+}
+
+.assign2 .top-right,.assign2 .bottom-right {
+        border-left: 2px solid red;
+}
+
+.assign2 .top-right {
+    position: relative;
+    bottom: 82px;
+    left: 139px;
+}
+.assign2 .bottom-right {
+    position: relative;
+    top: 29px;
+    left: 116px;
+}
+
+/* this is answer for assign3 */
+
+.main_ul {
+    width: 400px;
+    position: absolute;
+    top:400px;
+    left:100px;
+}
+
+.main_ul .main_li {
+    list-style-position: inside;
+    list-style-type: none;
+    background-color: #eee;
+    margin-bottom: 5px;
+}
+
+.main_ul .void1 li, .main_ul .main_li .void2 li , .main_ul .void3 li {
+    margin-bottom: 5px;
+    background-color: white;
+    list-style-position: outside;
+}
+
+.main_ul .main_li .void2 {
+    list-style-type:upper-roman;
+}
+
+.main_ul .main_li .void3 li {
+    list-style-position: inside;
+}
+
+/* this is answer for assignment num4 */
+
+.table {
+    text-transform: capitalize;
+    position:relative;
+    top: 800px;
+    left:10px;
+}
+
+table {
+    width:800px;
+    height:400px;
+    text-align: center;
+}
+
+thead {
+    height:60px;
+    padding:10px;
+    color: white;
+    background-color: rgb(70, 67, 67);
+}
+
+tbody {
+    background-color: #eee;
+}
+
+tbody .vw {
+    background-color: rgb(145, 156, 255);
+    border-radius: 5px;
+}
+
+tbody .del {
+    background-color: pink;
+    border-radius: 5px;
+}

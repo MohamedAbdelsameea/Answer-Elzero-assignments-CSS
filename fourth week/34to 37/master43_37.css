@@ -1,0 +1,38 @@
+/* this is an .assign1 */
+.assign1 {
+    position: absolute;
+    left:30%;
+}
+
+.assign1 div {
+    background-color: #eee;
+    width:300px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.assign1 :empty {
+    background-color: red;
+}
+
+/* this is an assign 2 */
+.assign2 div {
+    float: left;
+    background-color: #EEE;
+    font-size: 28px;
+    position: absolute;
+    top: 60%;
+    left: 35%;
+
+}
+
+.cle {
+    clear: both;
+}
+
+.assign2 div ::first-letter {
+    width: 20px;
+    height: 5px;
+    display: inline-block;
+    background-color: red;
+}

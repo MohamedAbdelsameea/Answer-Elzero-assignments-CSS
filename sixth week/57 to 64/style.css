@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+.grid {
+  background-color: #ddd;
+  padding: 20px;
+  width: 800px;
+  height: 400px;
+  margin: auto;
+  display: grid;
+  align-content: center;
+  grid-template-columns: repeat(3, calc(740px / 3));
+  grid-template-rows: 70px 270px;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.grid div {
+  content: "elemnt";
+  color: white;
+  text-align: center;
+  background-color: rgb(48 120 120);
+  padding-top: 15px;
+}
+.grid div::before {
+  content: "";
+  text-transform: capitalize;
+  font-size: 2em;
+  font-family: monospace;
+  font-weight: bolder;
+  text-align: center;
+}
+.grid .el_1::before {
+  content: "element 1";
+}
+.grid .el_2::before {
+  content: "element 2";
+}
+.grid .el_3::before {
+  content: "element 3";
+}
+.grid .el_4::before {
+  content: "element 4";
+}
+.grid .el_5::before {
+  content: "element 5";
+}
+.grid .el_6::before {
+  content: "element 6";
+}

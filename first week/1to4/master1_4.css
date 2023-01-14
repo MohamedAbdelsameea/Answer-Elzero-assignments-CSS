@@ -1,0 +1,81 @@
+/* 
+1- .title: class from the elemant.
+2- #nav: id from the elemant.
+3- div: call every element named div.
+4- h2: call every elemant named h2. 
+*/
+.title {
+    background-color: beige;
+}
+
+#nav {
+    background-color: aqua;
+}
+/* this will not be visible in the bage because it was styled at css attribute in html */
+
+div {
+    background-color: black;
+}
+
+h2 {
+    background-color: blue;
+}
+
+/* the answer of the assinment number 4
+1- valid
+2- valid
+3- unvalid
+4- unvalid
+5- valid
+6- valid
+*/
+._user-name {
+    background-color: beige;
+}
+
+.-user-name {
+    background-color: aqua;
+}
+/*  
+.1user-name {
+    background-color: black;
+}
+
+.@user-name {
+    background-color: blue;
+}
+*/
+
+.user10name {
+    background-color: blue;
+}
+
+.u {
+    background-color: blue;
+}
+
+/* this is the answer for assinment num 5 */
+.USERNAME {
+    color: black;
+}
+
+/* bad */
+.UserName {
+    color: black;
+}
+
+/* bad */
+.user-name {
+    color: black;
+}
+
+/* good*/
+.userName {
+    color: black;
+}
+
+/* bad */
+.usernameprofile {
+    color: black;
+}
+/* good */

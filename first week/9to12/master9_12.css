@@ -1,0 +1,60 @@
+/* this is answer for assign 1 */
+.assign-1-shape-1 {
+    display: inline;
+    background-color: #eee;
+    border: 5px solid red;
+    outline: 5px solid black;
+    margin:5px;
+    padding: 5px;
+}
+
+.assign-1-shape-2 {
+    display: inline;
+    background-color: #eee;
+    border: 5px solid;
+    border-color: blue green;
+    outline: 5px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.assign-1-shape-3 {
+    display: inline;
+    background-color: #eee;
+    border: 5px dashed;
+    border-color: red green blue yellow; 
+    outline: 5px solid black;
+    margin: 5px;
+    padding: 5px;
+}  
+
+/* this answer for assign 2 */
+
+.assign-2-shape-1 {
+    width: 400px;
+    height: 80px;
+    margin: 20px;
+    background-color: #eee;
+    border-left: 10px solid palevioletred;
+    outline: 10px solid #EEE;
+    padding: 50px 0 0 10px;
+    font-size: 30px;
+}
+
+.assign-2-shape-2 {
+    width: 400px;
+    height: 20px;
+    margin: 20px;
+    visibility: hidden;
+}
+
+.assign-2-shape-3 {
+    width: 400px;
+    height: 80px;
+    margin: 20px;
+    background-color: #eee;
+    border-left: 10px solid teal;
+    padding: 40px 0 0 10px;
+    outline: 10px solid #eee;
+    font-size: 30px;
+}

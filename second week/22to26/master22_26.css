@@ -1,0 +1,61 @@
+.assign_1 .assign_1-one ,.assign_1 .assign_1-two {
+   display: inline-block;
+    padding: 20px; 
+}
+
+.assign_1 .assign_1-one {  
+    border: 5px solid orangered;
+}
+
+.assign_1 .assign_1-two {
+    border: 5px solid skyblue;
+}
+
+.assign_1  .assign_1-one .assign_1-one-one ,.assign_1 .assign_1-two .assign_1-two-one {
+    padding: inherit;
+    border: inherit;
+    display: inline-block;
+    background-color: #EEE;
+    font-size: 2rem;
+}
+
+/* this is answer for assign 2 */
+.assign_2-one .one {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.assign_2-one .two {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+}
+
+.assign_2-one .three {
+    font-family: 'Jomhuria', cursive;
+    font-weight: 400;
+}
+
+.assign_2-one .one, .assign_2-one .two, .assign_2-one .three {
+   font-size: 2rem ; 
+}
+
+/* this answer assignment num 3 */
+
+.assign_3 {
+    font-size: 20px;
+    font-family:'Cairo', sans-serif ;
+}
+
+.assign_3 .assign_3-one {
+    font-size: 2.5rem;
+}
+
+.assign_3 .assign_3-two {
+    font-size: 2rem;
+}
+
+.assign_3 .assign_3-three {
+    font-size: 1.5rem;
+}
+

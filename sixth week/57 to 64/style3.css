@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.grid {
+  background-color: #ddd;
+  padding: 20px;
+  width: 800px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: auto 1fr 1fr auto;
+  grid-template-rows: 1fr auto;
+  gap: 15px;
+  margin: 100px 0 0 50px;
+}
+.grid div {
+  background-color: rgb(78, 77, 77);
+  color: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3em;
+  font-weight: 600;
+}

@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.assign-1 div {
+  z-index: 0;
+  width: 300px;
+  height: 200px;
+  margin: auto;
+  margin-top: 100px;
+  color: #03a9f4;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 600 50px monospace;
+}
+.assign-1 div::after {
+  content: "";
+  z-index: -1;
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  position: absolute;
+  background-color: #e91e63;
+  transform: rotate(6deg);
+  -webkit-transform: rotate(6deg);
+  -moz-transform: rotate(6deg);
+  -ms-transform: rotate(6deg);
+  -o-transform: rotate(6deg);
+}
+.assign-1 div::before {
+  content: "";
+  z-index: -2;
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  position: absolute;
+  background-color: #03a9f4;
+  transform: rotate(-6deg);
+  -webkit-transform: rotate(-6deg);
+  -moz-transform: rotate(-6deg);
+  -ms-transform: rotate(-6deg);
+  -o-transform: rotate(-6deg);
+}
+/* this is for next section */
+/* this is for next section */
+/* this is for next section */
+.assign-2 {
+  margin-top: 200px;
+}
+
+.assign-2 div {
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  font: 600 3.5em monospace;
+  background-color: #eee;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: transform ease 1s;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transition: border ease;
+  -moz-transition: transform;
+  -ms-transition: transform ease 1s;
+  -o-transition: transform ease 1s;
+}
+.assign-2 div::before {
+  content: "";
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  background-color: #eee;
+  border: 10px solid #2196f3;
+  border-left: 10px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  transition: transform ease 0.5s;
+  z-index: -1;
+  -webkit-transition: transform ease 0.5s;
+  -moz-transition: transform ease 0.5s;
+  -ms-transition: transform ease 0.5s;
+  -o-transition: transform ease 0.5s;
+}
+.assign-2 div::after {
+  content: "";
+  margin: auto;
+  width: 320px;
+  height: 320px;
+  background-color: #eee;
+  border: 10px solid #e91e63;
+  border-right: 10px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  -webkit-border-radius: 50%;
+  transition: transform ease 1s;
+  z-index: -1;
+  -webkit-transition: transform ease 1s 0.5s;
+  -moz-transition: transform ease 1s;
+  -ms-transition: transform ease 1s;
+  -o-transition: transform ease 1s;
+  z-index: -2;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.assign-2 span {
+  position: absolute;
+}
+.assign-2 div:hover:before {
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+}
+.assign-2 div:hover:after {
+  transform: rotate(360deg) rotate(360deg);
+  -webkit-transform: rotate(360deg) rotate(360deg);
+  -moz-transform: rotate(360deg) rotate(360deg);
+  -ms-transform: rotate(360deg) rotate(360deg);
+  -o-transform: rotate(360deg) rotate(360deg);
+}
